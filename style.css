@@ -30,26 +30,26 @@ a{text-decoration:none;}
         justify-content: center;
         align-content: center;
         align-items: center;
-        /* Safari and Chromeæ’­æ”¾å™¨å†™æ³• */
-        -webkit-animation-name: breath;/* åŠ¨ç”»åç§° */
-        -webkit-animation-duration: 1.5s;/* åŠ¨ç”»æ—¶é•¿3ç§’ */
-        -webkit-animation-timing-function: ease-in-out;/* åŠ¨ç”»é€Ÿåº¦æ›²çº¿ï¼šä»¥ä½Žé€Ÿå¼€å§‹å’Œç»“æŸ */
-        -webkit-animation-iteration-count: infinite;/* æ’­æ”¾æ¬¡æ•°ï¼šæ— é™ */
+        /* Safari and Chrome播放器写法 */
+        -webkit-animation-name: breath;/* 动画名称 */
+        -webkit-animation-duration: 1.5s;/* 动画时长3秒 */
+        -webkit-animation-timing-function: ease-in-out;/* 动画速度曲线：以低速开始和结束 */
+        -webkit-animation-iteration-count: infinite;/* 播放次数：无限 */
         
     }
  
 @keyframes breath {
-        /* åŠ¨ç”»å¼€å§‹æ—¶çš„ä¸é€æ˜Žåº¦ */
+        /* 动画开始时的不透明度 */
         from {
             opacity: 0;
         }
  
-        /* åŠ¨ç”»50% æ—¶çš„ä¸é€æ˜Žåº¦ */
+        /* 动画50% 时的不透明度 */
         50% {
             opacity: 1;
         }
  
-        /* åŠ¨ç”»ç»“æŸæ—¶çš„ä¸é€æ˜Žåº¦ */
+        /* 动画结束时的不透明度 */
         to {
             opacity: 0;
         }
